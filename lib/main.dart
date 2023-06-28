@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   leading: const Icon(Icons.key),
                   title: Text(titleList[index]),
                   onTap: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const NextPage()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => NextPage(titleList[index])));
                   },
                 ),
                 const Divider(height: 0,),
