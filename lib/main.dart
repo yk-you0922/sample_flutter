@@ -52,17 +52,17 @@ class _MyHomePageState extends State<MyHomePage> {
             leading: Icon(Icons.key),
             title: Text('Amazon'),
           ),
-          Divider(),
+          Divider(height: 0,),
           ListTile(
             leading: Icon(Icons.key),
             title: Text('楽天'),
           ),
-          Divider(),
+          Divider(height: 0,),
           ListTile(
             leading: Icon(Icons.key),
             title: Text('Yahoo'),
           ),
-          Divider(),
+          Divider(height: 0,),
         ],
       ),
       floatingActionButton: FloatingActionButton(
